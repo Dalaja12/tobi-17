@@ -101,6 +101,24 @@
     /* z-index: 2;  <-- ahora lo controlamos con .eye::before arriba */
 }
 
+/* Reflejos ajustados para móviles */
+@media (max-width: 600px) {
+    .eye::before {
+        top: 18px;     /* menor que en PC */
+        left: 22px;
+        width: 14px;
+        height: 14px;
+    }
+
+    .eye::after {
+        top: 30px;
+        left: 38px;
+        width: 7px;
+        height: 7px;
+    }
+}
+
+
 .eye::after {
     content: '';
     position: absolute;
@@ -3850,5 +3868,6 @@ body.fainted #mouth {
     height: auto;              /* mantiene proporción */
     padding: 5px;
 }
+
 
 
