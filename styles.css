@@ -1317,17 +1317,13 @@
     margin-top: 10px;
 
 }
-.bmo-frame {
-    position: relative;
-}
-
-
 @media (max-width: 600px) {
-    .bmo-frame {
+    .bmo-screen {
         transform: scale(0.80);
         transform-origin: top center;
     }
 }
+
 
 
 /* Versión compacta */
@@ -3854,4 +3850,5 @@ body.fainted #mouth {
     height: auto;              /* mantiene proporción */
     padding: 5px;
 }
+
 
